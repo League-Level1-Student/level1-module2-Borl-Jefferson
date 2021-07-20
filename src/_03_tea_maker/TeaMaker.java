@@ -5,9 +5,15 @@ package _03_tea_maker;
  */
 
 public class TeaMaker {
-
+public static void main(String[] args) {
+TeaBag bag = new TeaBag("Chamomile");
+Kettle corn = new Kettle();
+corn.boil();
+	
+	
+	
+}
 	/* Figure out how to make a cup of tea in this runner class, using the other classes below */
-
 }
 
 class TeaBag {
